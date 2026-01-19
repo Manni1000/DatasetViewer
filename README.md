@@ -18,28 +18,7 @@ A desktop application for browsing and searching the e621 captioned dataset. Dow
 
 ## Screenshots
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│ [Download Dataset] [Refresh List]  Status: Ready. 50000 items.     │
-│ ─────────────────────────────────────────────────────────────────── │
-│ Search: [canine -fox rating:s score:>50          ] [Search] [?]    │
-│ ─────────────────────────────────────────────────────────────────── │
-│ │ Posts: 1523 shown │                                              │
-│ │ ID: 12345        ◄│  ┌─────────────────────────────────┐         │
-│ │ ID: 12344         │  │                                 │         │
-│ │ ID: 12343         │  │         [Image Preview]         │         │
-│ │ ID: 12342         │  │                                 │         │
-│ │ ...               │  └─────────────────────────────────┘         │
-│ │                   │  [Tags] [Summary] [Parts] [Midjourney] [DA]  │
-│ │                   │  ┌─────────────────────────────────┐         │
-│ │                   │  │ [Copy Tags]                     │         │
-│ │                   │  │ canine                          │         │
-│ │                   │  │ wolf                            │         │
-│ │                   │  │ male                            │         │
-│ │                   │  │ ...                             │         │
-│ │                   │  └─────────────────────────────────┘         │
-└─────────────────────────────────────────────────────────────────────┘
-```
+![Screenshot of the application](Screenshot.png)
 
 ## Requirements
 
