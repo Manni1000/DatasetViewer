@@ -89,7 +89,7 @@ pip install -r requirements.txt
 ### 4. Run the Application
 
 ```bash
-python jsonl_viewer_v3.py
+python datasetviewer.py
 ```
 
 ## First Run
