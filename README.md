@@ -53,7 +53,7 @@ A desktop application for browsing and searching the e621 captioned dataset. Dow
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/e621-dataset-viewer.git
+git clone https://github.com/Manni1000/DatasetViewer.git
 cd e621-dataset-viewer
 
 # Or just download the files directly
@@ -157,7 +157,6 @@ anthro male solo score:>200 -young
 
 - **Database**: `dataset_v3.db` (SQLite) - Created in the same directory as the script
 - **No raw JSON**: Only essential fields are stored to minimize disk usage
-- **Deduplication**: Posts are deduplicated by MD5 hash
 
 ## Troubleshooting
 
@@ -177,29 +176,9 @@ pip install -r requirements.txt
 If you get schema errors after updating the code, delete `dataset_v3.db` and re-download:
 ```bash
 rm dataset_v3.db
-python jsonl_viewer_v3.py
+python datasetviewer.py
 ```
 
-### Download stuck or failed
-- Check your internet connection
-- The app saves progress - restart and it will continue where it left off
-- Already processed files are skipped automatically
-
-## Dataset Information
-
-This viewer uses the [lodestones/e621-captions](https://huggingface.co/datasets/lodestones/e621-captions) dataset from HuggingFace, which contains:
-
-- Post metadata (tags, ratings, scores, etc.)
-- AI-generated captions and descriptions:
-  - Regular summaries
-  - Individual parts breakdown
-  - Midjourney-style prompts
-  - DeviantArt commission request format
-  - Brief summaries
-
-## License
-
-MIT License - See LICENSE file for details.
 
 ## Acknowledgments
 
@@ -207,9 +186,6 @@ MIT License - See LICENSE file for details.
 - Images: [e621.net](https://e621.net) - Please follow their API guidelines
 - UI Framework: [DearPyGui](https://github.com/hoffstadt/DearPyGui)
 
-## Contributing
-
-Contributions welcome! Please open an issue or pull request.
 
 ---
 
