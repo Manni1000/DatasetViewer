@@ -168,4 +168,4 @@ python datasetviewer.py
 
 ---
 
-**Note**: This tool is for research and personal use. Please respect e621's Terms of Service and API rate limits.
+
