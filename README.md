@@ -1,4 +1,4 @@
-# e621 Dataset Viewer
+# Dataset Viewer
 
 A desktop application for browsing and searching the e621 captioned dataset. Downloads data directly from HuggingFace, stores it efficiently in SQLite, and provides a fast searchable interface with e621-style search syntax.
 
