@@ -23,7 +23,7 @@ A desktop application for browsing and searching the e621 captioned dataset. Dow
 ## Requirements
 
 - Python 3.9 or higher
-- ~20GB disk space for full dataset (or use test mode for ~100MB)
+- ~20GB disk space for full dataset (or use test mode for ~16MB)
 - Internet connection for initial download
 
 ## Installation
