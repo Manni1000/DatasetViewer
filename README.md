@@ -33,7 +33,7 @@ A desktop application for browsing and searching the e621 captioned dataset. Dow
 ```bash
 # Clone the repository
 git clone https://github.com/Manni1000/DatasetViewer.git
-cd e621-dataset-viewer
+cd DatasetViewer
 
 # Or just download the files directly
 ```
